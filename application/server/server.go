@@ -9,7 +9,7 @@ import (
 
 func Serve(addr string) {
 
-	http.HandleFunc("/get/user", get(handler.HandleGetUser()))
+	http.HandleFunc("/get/user", post(handler.HandleGetUser()))
 	http.HandleFunc("/create/user", post(handler.HandleInsertUser()))
 	http.HandleFunc("/delete/user", post(handler.HandleDeleteUser()))
 

@@ -40,7 +40,7 @@ go runすれば動くはずです。
 }  
 
 (3) localhost:9000/delete/user  
-ユーザー情報を取得します。
+ユーザー情報を取得します。  
 [Request]登録時に返ってきたUserIDをPostします。  
 
 {  
